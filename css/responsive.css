@@ -1,0 +1,40 @@
+html, body {
+  width: 100%;
+  height: 100%;
+/*  display: flex;*/
+}
+
+.container, .container1, .container2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 100%;
+}
+
+@media screen and (max-width: 412px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen {
+  .container1 {
+    width: 100%;
+  }
+  .logo {
+    width: 10%;
+  }
+  .myName {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
