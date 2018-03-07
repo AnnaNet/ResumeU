@@ -4,7 +4,7 @@ html, body {
 /*  display: flex;*/
 }
 
-.container, .container1, .container2 {
+.container, .container2, .topBlock, .bottomLinks, .navSmall {
   display: flex;
   flex-wrap: wrap;
 }
@@ -20,8 +20,11 @@ html, body {
 }
 
 @media screen {
-  .container1 {
-    width: 100%;
+  .container2 {
+    width: 85%;
+  }
+  .navSmall {
+    width: 15%;
   }
   .logo {
     width: 10%;
