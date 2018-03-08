@@ -32,6 +32,10 @@ html, body {
   .myName {
     width: 90%;
   }
+  .project {
+    width: 33%;
+  }
+
 }
 
 @media screen and (min-width: 1000px) {

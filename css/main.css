@@ -1,11 +1,37 @@
-/*.myName {*/
-  /*font-size: 50px;*/
-/*}*/
-
 .logo, .myName {
   position: relative;
 }
 
+.imgLogo {
+  width: 100%;
+  padding-top: 10px;
+}
+
+.myName {
+  text-align: -webkit-right;
+}
+
 .topBlock {
   border-bottom: solid steelblue 8px;
+  margin-bottom: 1.3em;
+}
+
+.project {
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+ /* line-width: 0;*/
+  color: #2d3c49;
+}
+
+.backImg {
+  height: 400px;
+}
+
+.listWorks {
+  -webkit-padding-start: 0px;
+}
+
+.work {
+  color: #7d97ad;
 }
