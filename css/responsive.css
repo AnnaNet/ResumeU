@@ -4,7 +4,7 @@ html, body {
 /*  display: flex;*/
 }
 
-.container, .container2, .topBlock, .bottomLinks, .navSmall {
+.container, .topBlock, .bottomLinks, .navSmall {
   display: flex;
   flex-wrap: wrap;
 }
@@ -20,22 +20,18 @@ html, body {
 }
 
 @media screen {
-  .container2 {
-    width: 85%;
-  }
-  .navSmall {
-    width: 15%;
-  }
   .logo {
     width: 10%;
   }
   .myName {
-    width: 90%;
+    width: 88%;
   }
   .project {
-    width: 33%;
+    width: 30%;
   }
-
+  .fild {
+    width: 5%;
+  }
 }
 
 @media screen and (min-width: 1000px) {

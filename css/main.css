@@ -1,5 +1,27 @@
+.container {
+  font-family: 'Roboto';
+}
+
 .logo, .myName {
   position: relative;
+}
+
+.logo {
+  margin-top: 1em;
+}
+
+.name, .work {
+  font-weight: unset;
+}
+
+.name {
+  font-size: 3em;
+  margin-bottom: 0;
+}
+
+.status {
+  font-size: 1.5em;
+  margin: 0;
 }
 
 .imgLogo {
@@ -8,7 +30,8 @@
 }
 
 .myName {
-  text-align: -webkit-right;
+  text-align: right;
+  text-transform: uppercase;
 }
 
 .topBlock {
@@ -16,12 +39,11 @@
   margin-bottom: 1.3em;
 }
 
-.project {
-  text-transform: uppercase;
-  display: inline-block;
-  text-align: center;
- /* line-width: 0;*/
+.linkName {
+  text-decoration: none;
   color: #2d3c49;
+  text-transform: uppercase;
+  font-size: 2.5em;
 }
 
 .backImg {
@@ -30,8 +52,17 @@
 
 .listWorks {
   -webkit-padding-start: 0px;
+  letter-spacing: -10px;
+}
+
+.project {
+  text-align: center;
+  display: inline-block;
+  letter-spacing: 0;
 }
 
 .work {
   color: #7d97ad;
+  font-size: 1.6em;
+  margin-bottom: 0;
 }
