@@ -1,5 +1,5 @@
 .container {
-  font-family: 'Roboto';
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
 .logo, .myName {
@@ -65,4 +65,5 @@
   color: #7d97ad;
   font-size: 1.6em;
   margin-bottom: 0;
+  padding-left: 0.1em;
 }
