@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .container {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
@@ -32,6 +36,7 @@
 .myName {
   text-align: right;
   text-transform: uppercase;
+  color: darkslategrey;
 }
 
 .topBlock {
