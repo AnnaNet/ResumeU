@@ -12,7 +12,7 @@ html, body {
   width: 100%;
 }
 
-@media screen and (max-width: 549px) {
+@media screen and (max-width: 349px) {
   .name {
     font-size: 2.1em;
   }
@@ -33,6 +33,43 @@ html, body {
   }
   .fild {
     width: 5%;
+  }
+  .linkName {
+    font-size: 1.4em;
+  }
+  .sentence {
+    font-size: 1.2em;
+    padding-right: 0.5em;
+  }
+}
+
+@media screen and (max-width: 549px) and (min-width: 350px) {
+  .name {
+    font-size: 2.1em;
+  }
+  .status {
+    font-size: 1.2em;
+  }
+  .resume, .fildS {
+    display: none;
+  }
+  .logo {
+    width: 20%;
+  }
+  .myName {
+    width: 79%;
+  }
+  .project {
+    width: 30%;
+  }
+  .fild {
+    width: 5%;
+  }
+  .linkName {
+    font-size: 1.8em;
+  }
+  .sentence {
+    padding-right: 0.5em;
   }
 }
 
@@ -66,9 +103,24 @@ html, body {
   }
 }
 
-@media screen and (max-width: 768px) {
-  .linkName {
-    font-size: 1.8em;
+@media screen and (max-width: 768px) and (min-width: 549px) {
+  .logo {
+    width: 15%;
+  }
+  .myName {
+    width: 84%;
+  }
+  .work {
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: -0.15em;
+  }
+  .sentence {
+    width: 100%;
+    text-align: left;
+    padding-left: 0.15em;
+    padding-bottom: 1em;
+    margin: 0;
   }
 }
 

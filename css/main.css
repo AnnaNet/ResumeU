@@ -11,7 +11,7 @@ body {
 }
 
 .logo {
-  margin-top: 1em;
+  margin-top: 2em;
 }
 
 .name, .work {
@@ -42,6 +42,7 @@ body {
 .topBlock {
   border-bottom: solid steelblue 8px;
   margin-bottom: 1.3em;
+  margin-top: -1.2em;
 }
 
 .linkName {
@@ -71,13 +72,13 @@ body {
   color: #7d97ad;
   font-size: 1.5em;
   margin-bottom: 0;
-  margin-top: 10px;
+  margin-top: 0.4em;
   padding-left: 0.15em;
   padding-bottom: 0.1em;
 }
 
 .sentence {
-  margin-top: -10px;
+  margin-top: -0.4em;
   margin-bottom: -20px;
   text-align: right;
   font-size: 1.6em;
