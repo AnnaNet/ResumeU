@@ -51,16 +51,17 @@ body {
   font-size: 2.5em;
 }
 
-.backImg {
-  height: 400px;
+.meImg, .backImg {
+  height: 100%;
 }
 
 .listWorks {
-  -webkit-padding-start: 0px;
+  padding: 0px;
   letter-spacing: -10px;
+  margin: 0;
 }
 
-.project {
+.project, .center {
   text-align: center;
   display: inline-block;
   letter-spacing: 0;
@@ -68,7 +69,18 @@ body {
 
 .work {
   color: #7d97ad;
-  font-size: 1.6em;
+  font-size: 1.5em;
   margin-bottom: 0;
-  padding-left: 0.1em;
+  margin-top: 10px;
+  padding-left: 0.15em;
+  padding-bottom: 0.1em;
+}
+
+.sentence {
+  margin-top: -10px;
+  margin-bottom: -20px;
+  text-align: right;
+  font-size: 1.6em;
+  font-style: italic;
+  color: #627777;
 }
