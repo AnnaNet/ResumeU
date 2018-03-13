@@ -14,19 +14,24 @@ html, body {
 
 @media screen and (max-width: 349px) {
   .name {
-    font-size: 2.1em;
+    font-size: 1.4em;
   }
   .status {
-    font-size: 1.2em;
+    font-size: 1em;
   }
-  .resume, .fildS {
-    display: none;
+  .resume {
+    width: 100%;
+    height: 30%;
+  }
+  .fildC {
+    width: 100%;
   }
   .logo {
     width: 20%;
   }
   .myName {
     width: 79%;
+    padding-top: 0.5em;
   }
   .project {
     width: 30%;
@@ -38,7 +43,7 @@ html, body {
     font-size: 1.4em;
   }
   .sentence {
-    font-size: 1.2em;
+    font-size: 1.3em;
     padding-right: 0.5em;
   }
 }
@@ -50,7 +55,12 @@ html, body {
   .status {
     font-size: 1.2em;
   }
-  .resume, .fildS {
+  .resume {
+    width: 100%;
+    height: 30%;
+  }
+
+  .fildS {
     display: none;
   }
   .logo {
@@ -70,6 +80,8 @@ html, body {
   }
   .sentence {
     padding-right: 0.5em;
+    font-size: 1.8em;
+
   }
 }
 
@@ -89,7 +101,7 @@ html, body {
   .project {
     width: 30%;
   }
-  .fildS {
+  .fildC {
     width: 3.5%
   }
   .fild {
