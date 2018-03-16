@@ -13,120 +13,147 @@ html, body {
 }
 
 @media screen and (max-width: 349px) {
+
   .name {
     font-size: 1.4em;
   }
+
   .status {
     font-size: 1em;
   }
+
   .resume {
     width: 100%;
     height: 30%;
   }
-  .fildC {
-    width: 100%;
-  }
+
   .logo {
     width: 20%;
   }
+
   .myName {
     width: 79%;
     padding-top: 0.5em;
   }
+
+  .work {
+    margin: 0;
+  }
+
+  .me {
+    padding-bottom: 3%;
+  }
+
   .project {
     width: 30%;
   }
-  .fild {
-    width: 5%;
-  }
+
   .linkName {
     font-size: 1.4em;
   }
+
   .sentence {
     font-size: 1.3em;
     padding-right: 0.5em;
   }
+
 }
 
 @media screen and (max-width: 549px) and (min-width: 350px) {
+
   .name {
     font-size: 2.1em;
   }
+
   .status {
     font-size: 1.2em;
   }
+
   .resume {
     width: 100%;
     height: 30%;
   }
 
-  .fildS {
-    display: none;
-  }
   .logo {
     width: 20%;
   }
+
   .myName {
     width: 79%;
   }
+
+  .me {
+    padding-bottom: 3%;
+  }
+
+  .work {
+    margin: 0;
+  }
+
   .project {
     width: 30%;
   }
-  .fild {
-    width: 5%;
-  }
+
   .linkName {
     font-size: 1.8em;
   }
+
   .sentence {
     padding-right: 0.5em;
     font-size: 1.8em;
-
   }
+
 }
 
 @media screen and (min-width: 550px) {
+
   .logo {
     width: 10%;
   }
+
   .myName {
     width: 89%;
   }
+
   .me {
     width: 40%;
+    padding-right: 3.5%
   }
+
   .resume {
     width: 56.5%;
   }
+
   .project {
     width: 30%;
   }
-  .fildC {
-    width: 3.5%
-  }
-  .fild {
-    width: 5%;
-  }
+
   .work {
     width: 35%;
   }
+
   .sentence {
     width: 63%;
   }
+
 }
 
 @media screen and (max-width: 768px) and (min-width: 549px) {
+
   .logo {
     width: 15%;
   }
+
   .myName {
     width: 84%;
   }
+
   .work {
     width: 100%;
     margin-top: 1em;
     margin-bottom: -0.15em;
   }
+
   .sentence {
     width: 100%;
     text-align: left;
@@ -134,12 +161,15 @@ html, body {
     padding-bottom: 1em;
     margin: 0;
   }
+
 }
 
 @media screen and (min-width: 950px) {
+
   .container {
     width: 950px;
     margin-right: auto;
     margin-left: auto;
   }
+
 }

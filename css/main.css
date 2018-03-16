@@ -85,3 +85,8 @@ body {
   font-style: italic;
   color: #4e5f5f;
 }
+
+.space {
+  padding-left: 5%;
+  padding-right: 5%;
+}
