@@ -8,70 +8,74 @@
     <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
     <link rel = "stylesheet" href = "css/main.css">
     <link rel = "stylesheet" href = "css/responsive.css">
-    <link href = "http://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic" rel = "stylesheet" type = "text/css">
+    <link href = "http://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic" rel = "stylesheet">
 
   </head>
 
   <body>
 
+    <!--TODO: add container for flexible blocks-->
     <div class = "container">
 
-      <section class = "box topBlock">
+      <!--TODO: add top block with logo and title-->
+      <section class = "box top">
 
         <div class = "box logo">
-          <img class = "imgLogo" src = "images/logoUdacity.svg" alt = "Logo Udasity">
+          <img class = "img-logo" src = "images/logoUdacity.svg" alt = "Logo Udasity">
         </div>
 
-        <div class = "box myName">
+        <header class = "box title">
           <h3 class = "name">Anna Moskalchuk</h3>
           <h5 class = "status">front-end ninja</h5>
-        </div>
+        </header>
 
       </section>
 
-      <ul class = "box image listWorks">
+      <!--TODO: add 2 central photos-->
+      <ul class = "box img-block works">
 
         <li class = "box center me">
-          <img class = "box meImg" src = "images/me.jpg" alt = "Background picture">
+          <img class = "box photo" src = "images/me.jpg" alt = "Background picture">
         </li>
 
-        <li class = "box center resume">
-          <img class = "box backImg" src = "images/code.jpg" alt = "Picture of code">
+        <li class = "box center picture">
+          <img class = "box img-code" src = "images/code.jpg" alt = "Picture of code">
         </li>
 
       </ul>
 
+      <!--TODO: add 2 blocks with words-->
       <article class = "box work">
         <h3 class = "work">Featured Work</h3>
       </article>
 
-      <div class = "box sentence">
+      <article class = "box sentence">
         <p>The time for action is now.<br>It’s never too late to do something.</p>
-      </div>
+      </article>
 
+      <!--TODO: add bottom block with pictures and links-->
+      <footer class = "box links">
 
-      <div class = "box bottomLinks">
-
-        <ul class = "box listWorks">
+        <ul class = "box works">
 
           <li class = "box project">
-            <img class = "box pictHobby" src = "images/braslet.jpg" alt = "Photo of bracelets">
-            <a href = "" class = "linkName">Hobby</a>
+            <img class = "box" src = "images/braslet.jpg" alt = "Photo of bracelets">
+            <a href = "" class = "link-name">Hobby</a>
           </li>
 
           <li class = "box project space">
-            <img class = "box pictNature" src = "images/nature.jpg" alt = "Photo of nature">
-            <a href = "" class = "linkName">Nature</a>
+            <img class = "box" src = "images/nature.jpg" alt = "Photo of nature">
+            <a href = "" class = "link-name">Nature</a>
           </li>
 
           <li class = "box project">
-            <img class = "box pictBalloons" src = "images/shar.jpg" alt = "Photo of balloons">
-            <a href = "" class = "linkName">Joy</a>
+            <img class = "box" src = "images/shar.jpg" alt = "Photo of balloons">
+            <a href = "" class = "link-name">Joy</a>
           </li>
 
         </ul>
 
-      </div>
+      </footer>
 
     </div>
 
